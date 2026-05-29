@@ -76,12 +76,15 @@
 .social-link:focus{
    background-color: #404bbf;
 }
- .social-icon{
-   fill: #f4f4fd;
-   /* width: 16px;
-   height: 16px;*/  
 
-} 
+.social-icon {
+  fill: currentColor;
+}
+
+.social-link {
+  color: #f4f4fd;
+}
+
 
 
 
@@ -105,3 +108,36 @@
   overflow: hidden;
 }
 
+@media screen and (min-width: 768px) {
+  .team .container {
+    max-width: 768px;
+    padding: 96px 16px; 
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 64px 24px; 
+  }
+
+}
+@media screen and (min-width: 1158px) {
+  .team .container {
+    max-width: 1158px;
+    padding: 120px 15px; 
+  }
+
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    flex-wrap: nowrap; 
+    gap: 24px; 
+  }
+
+  .section-title {
+    margin-bottom: 72px;
+  }
+}

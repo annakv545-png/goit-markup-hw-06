@@ -153,7 +153,49 @@
 .subscribe-button:focus {
   background-color: #31d0aa;
 }
+@media screen and (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 584px; 
+    gap: 72px 24px;
+    text-align: left;
+  }
 
+  .subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+  }
 
+  .email-input {
+    width: 264px; 
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    max-width: 1158px;
+    flex-wrap: nowrap; 
+    align-items: baseline; 
+    gap: 0; 
+  }
+
+  .footer-info {
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: 80px; 
+  }
+
+  .footer-subscribe {
+    margin-left: auto; 
+  }
+}
 
 
