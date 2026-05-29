@@ -92,8 +92,8 @@
     color: #2e2f42;
     text-decoration: none;
   display: block;
-  padding: 24px 0;
-
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .logo-light{
     color: #4d5ae5; 
@@ -159,7 +159,8 @@ cursor: pointer;
 
   .logo {
     margin-right: 120px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .contacts {
     display: block;

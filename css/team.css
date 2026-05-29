@@ -1,7 +1,6 @@
 
 .team{
    background-color: #f4f4fd;
-   padding: 96px 0;
 }
 .team-item{
       background-color: #FFFFFF;
@@ -140,4 +139,9 @@
   .section-title {
     margin-bottom: 72px;
   }
+  
+  .section {
+    padding: 120px 0;
+  }
+
 }
