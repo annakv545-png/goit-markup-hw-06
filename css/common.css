@@ -26,8 +26,9 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0;
 }
 .container{
-    width: 100%;
-    margin: 0 auto;
+    min-width: 320px;
+    margin-left: auto;
+  margin-right: auto;
     padding-right:  16px;
     padding-left:  16px;
 
@@ -59,8 +60,6 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-       padding-left: 16px;
-      padding-right: 16px;
   }
 }
 

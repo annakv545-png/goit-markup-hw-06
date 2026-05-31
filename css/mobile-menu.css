@@ -28,7 +28,7 @@ address {
   height: 100%;
   /* max-width: 320px; */
   margin: 0 auto;
-  padding: 80px 16px 40px 16px;
+  padding: 72px 16px 40px 16px;
   display: flex;
   flex-direction: column;
 }
@@ -127,7 +127,7 @@ address {
 }
 .mobile-social {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   justify-content: flex-start;
 }
 .mobile-social-element {

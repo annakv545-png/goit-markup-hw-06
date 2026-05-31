@@ -14,7 +14,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 16px; */
+   padding: 0 16px; 
+   min-width: 320px;
+   max-width: 320px;
+   margin: 0 auto;
 }
 .nav-link.current::after {
     content: "";
@@ -139,7 +142,7 @@
 @media screen and (min-width: 768px) {
   .header-container {
     max-width: 768px;
-    padding: 0 auto;
+    padding: 0 16px;
   }
   .menu-btn {
     display: none;
@@ -181,7 +184,7 @@
 @media screen and (min-width: 1158px) {
   .header-container {
     max-width: 1158px; 
-    padding: 0 auto; 
+    padding: 0 15px; 
   }
 
   .logo {
