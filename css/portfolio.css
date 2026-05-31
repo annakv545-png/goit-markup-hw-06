@@ -1,12 +1,12 @@
 .portfolio {
   padding: 96px 0;
 }
-.portfolio-container {
+/* .portfolio-container {
   max-width: 100%;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-}
+} */
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
