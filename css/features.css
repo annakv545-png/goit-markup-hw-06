@@ -1,17 +1,28 @@
+.features-container {
+  max-width: 320px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 .features-subtitle{
       /* font-size: 36px;
     text-align: center; */
     
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
+
 
 }
 .features-text{
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -36,7 +47,10 @@
 .features-list {
   display: flex;
   gap: 72px; 
-  flex-direction: column
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .features-item {
@@ -60,24 +74,17 @@
   padding: 0;
 }
 
-.container {
-  max-width: 320px;
-  padding-right: 16px;
-  padding-left: 16px;
-  margin: 0 auto;
-}
+
 .features-icon {
   width: 64px;
   height: 64px;
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .features-container {
     max-width: 768px;
-    padding: 96px 16px;
   }
 
   .features-list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
     gap: 72px 24px; 
@@ -88,33 +95,26 @@
   }
 
   .features-subtitle {
-
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-
-  }
-  .features-text {
-
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    text-align: left;
 
   }
 }
 
 
 @media screen and (min-width: 1158px) {
-  .container {
+  .features-container {
     max-width: 1158px;
-    padding: 120px 15px; 
+    padding-left: 15px; 
+    padding-right: 15px;
   }
 
   .features {
-    padding: 120px 0;
+    padding-top: 120px ;
+    padding-bottom: 120px ;
   }
 
   .features-list {
-    flex-direction: row;
+    flex-wrap: nowrap ;
     gap: 24px; 
   }
 
@@ -129,14 +129,12 @@
   .features-subtitle {
 
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42
-
+    font-size: 20px;
+    font-weight: 500;
   }
 
   .features-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-weight: 400;
 }
    
   

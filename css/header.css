@@ -14,9 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 0 16px;
+  /* padding: 0 16px; */
 }
 .nav-link.current::after {
     content: "";
@@ -61,9 +59,12 @@
   background: none;
   border: none;
   cursor: pointer;
-  display: flex;
+  display: flex;  
   align-items: center;
+  justify-content: center;
   padding: 0;
+  width: 24px;         
+  height: 24px
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -105,6 +106,9 @@
 .contacts-link {
   text-decoration: none;
     color: #434455;
+      font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link:hover,
@@ -112,17 +116,8 @@
     color: #404bbf;
 }
 
-.menu-btn {
-  background: none;
-  border: none;
-cursor: pointer;
-  display: flex;        
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  width: 24px;         
-  height: 24px
-}
+
+
 
 
 .header-logo {
@@ -144,7 +139,7 @@ cursor: pointer;
 @media screen and (min-width: 768px) {
   .header-container {
     max-width: 768px;
-    padding: 0 16px;
+    padding: 0 auto;
   }
   .menu-btn {
     display: none;
@@ -186,7 +181,7 @@ cursor: pointer;
 @media screen and (min-width: 1158px) {
   .header-container {
     max-width: 1158px; 
-    padding: 0 15px; 
+    padding: 0 auto; 
   }
 
   .logo {
