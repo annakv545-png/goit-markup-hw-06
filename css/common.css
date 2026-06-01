@@ -6,6 +6,11 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 ul{
     margin: 0;
     padding: 0;

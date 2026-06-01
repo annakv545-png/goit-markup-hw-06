@@ -76,18 +76,20 @@ address {
   flex-direction: column;
   gap: 40px;
 }
-.mobile-nav-link {
+.mobile-nav-link-current {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.mobile-nav-link {
+  color: #2e2f42;
+}
 .mobile-nav-link:hover,
 .mobile-nav-link:focus,
-.mobile-nav-link.current {
+.mobile-nav-link-current {
   color: #404bbf;
 }
 .mobile-nav-wrapper {
