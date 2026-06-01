@@ -76,6 +76,7 @@ address {
   flex-direction: column;
   gap: 40px;
 }
+.mobile-nav-link,
 .mobile-nav-link-current {
   font-weight: 700;
   font-size: 36px;
